@@ -28,6 +28,7 @@
 
 
 #pragma warning( disable : 4355 )
+#pragma warning( disable : 5205 )
 
 
 CMapClass *CreateArch(BoundBox *pBox, float fStartAngle, int iSides, float fArc,

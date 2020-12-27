@@ -16,6 +16,9 @@
 // memdbgon must be the last include file in a .cpp file!!!
 #include <tier0/memdbgon.h>
 
+
+#pragma warning( disable : 5205 )  // Disable warning messages
+
 //=============================================================================
 //
 // Editable Displacement Subdivision Mesh Implementation
